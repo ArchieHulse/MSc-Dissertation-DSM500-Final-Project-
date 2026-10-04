@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="figures/Pakistan%20Flood.png" alt="Pakistan Flood" width="500">
+  <img src="figures/Pakistan%20Flood.png" alt="pakistan flood" width="500">
 </p>
 
 <p align="center">
