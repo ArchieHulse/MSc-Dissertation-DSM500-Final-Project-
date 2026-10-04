@@ -72,6 +72,7 @@ The original dataset should be cited as:
 
 ## Repository Structure
 
+```text
 MSc Dissertation GitHub/
 │
 ├── README.md
@@ -105,6 +106,7 @@ MSc Dissertation GitHub/
 │
 └── dissertation/
     └── DSM500 Final Project.pdf
+```
 
 ---
 
@@ -112,10 +114,10 @@ MSc Dissertation GitHub/
 
 The notebooks are intended to be run sequentially in the following order.
 
-
+```markdown
 ### 1. Raw Data Exploration
 
-01_RAW_Data_Exploration.ipynb
+**File:** `01_RAW_Data_Exploration.ipynb`
 
 This notebook contains the initial exploratory data analysis (EDA) and quality assessment of the Sen1Floods11 dataset, including inspection of the Sentinel-1 imagery, reference data and permanent-water information.
 
@@ -123,43 +125,43 @@ Notebook 1 is primarily an exploratory and development notebook rather than a cl
 
 The raw Sen1Floods11 dataset is required for the exploratory analysis in this notebook and should be placed in:
 
-
+```text
 Data/Sen1Floods11_raw/
 
 ---
 
 ### 2. Data Cleaning
 
-02_Data_Cleaning.ipynb
+**File:** `02_Data_Cleaning.ipynb`
 
 This notebook performs data quality control and generates the intermediate metadata tables required by the subsequent workflow.
 
 The principal outputs are:
 
-
+```text
 Results/tables/chip_dataTable.csv
 Results/tables/bolivia_holdout_dataTable.csv
-
+```
 
 ---
 
 ### 3. Experimental Design
 
-03_Experiment_Design.ipynb
+**File:** `03_Experiment_Design.ipynb`
 
 This notebook defines the experimental population and prepares the scene-level metadata used by the modelling workflow.
 
 The principal output is:
 
-
+```text
 Results/tables/experiment_design_dataTable.csv
-
+```
 
 ---
 
 ### 4. Model Training
 
-04_Model_Training_NEW.ipynb
+**File:** `04_Model_Training_NEW.ipynb`
 
 This notebook contains the final model-training and evaluation workflow used for the dissertation.
 
@@ -172,8 +174,9 @@ Both models use the same Sentinel-1 VV/VH input data and the final JRC-adjusted 
 
 The final trained model checkpoints are provided in:
 
-
+```text
 results_new/models/
+```
 
 The notebook also generates model predictions, performance results and figures used in the subsequent statistical analysis.
 
@@ -181,7 +184,7 @@ The notebook also generates model predictions, performance results and figures u
 
 ### 5. Statistical Analysis
 
-05_Statistical_Analysis_NEW.ipynb
+**File:** `05_Statistical_Analysis_NEW.ipynb`
 
 This notebook contains the final statistical analysis used in the dissertation.
 
@@ -206,8 +209,10 @@ for both U-Net and SegFormer-B0.
 
 Final statistical results and figures are stored in:
 
+```text
 results_new/tables/
 results_new/figures/
+```
 
 ---
 
@@ -215,8 +220,10 @@ results_new/figures/
 
 Two final trained model checkpoints are included in the repository:
 
+```text
 results_new/models/unet_best.pt
 results_new/models/segformer_b0_best.pt
+```
 
 These represent the final model states retained for evaluation in the dissertation.
 
@@ -230,13 +237,13 @@ The repository contains the final quantitative and qualitative results generated
 
 ### Tables
 
-The results_new/tables/ directory contains the final model results, Pearson correlations, regression results, regression diagnostics, sensitivity analysis and Bolivia holdout results.
+The `results_new/tables/` directory contains the final model results, Pearson correlations, regression results, regression diagnostics, sensitivity analysis and Bolivia holdout results.
 
-The Results/tables/ directory contains the intermediate metadata tables required by the modelling workflow.
+The `Results/tables/` directory contains the intermediate metadata tables required by the modelling workflow.
 
 ### Figures
 
-The results_new/figures/ directory contains the figures used for model evaluation, statistical analysis and qualitative error analysis.
+The `results_new/figures/` directory contains the figures used for model evaluation, statistical analysis and qualitative error analysis.
 
 ---
 
@@ -295,7 +302,9 @@ Exact package versions may depend on the computational environment used to repro
 
 The complete final dissertation is provided in:
 
+```text
 dissertation/DSM500 Final Project.pdf
+```
 
 The dissertation contains the full literature review, methodology, results, discussion, limitations, conclusion, references and ethics statement.
 
