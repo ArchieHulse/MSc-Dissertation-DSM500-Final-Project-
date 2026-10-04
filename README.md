@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <em>Sentinel-1 SAR imagery illustrating flood detection across the study region.</em>
+  <em>Sentinel-1 SAR imagery illustrating flood detection.</em>
 </p>
 # Investigating the Relationship of Flood Extent and Deep-Learning Segmentation Performance Using Sentinel-1 SAR Imagery
 
