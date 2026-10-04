@@ -23,11 +23,12 @@ https://github.com/cloudtostreet/Sen1Floods11/blob/master/docs/README.md
 ## Required directory structure
 
 After downloading and extracting the dataset, place the `Sen1Floods11_raw` directory inside this `Data` folder so that the repository has the following structure:
-
+```Text
 Data/
 └── Sen1Floods11_raw/
 └── v1.1/
 └── data/
+```
 
 The notebooks in this project expect the dataset to be available at:
 
