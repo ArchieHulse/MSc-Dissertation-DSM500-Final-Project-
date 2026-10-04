@@ -1,20 +1,10 @@
 <p align="center">
-  <img src="./figures/Paraguay_1029042_JRC_Adjustment.png" alt="Paraguay_1029042_JRC_Adjustment.png" width="500">
-</p>
-
-<p align="center">
-  <em>Sentinel-1 SAR imagery illustrating flood detection.</em>
-</p>
-
-<p align="center">
   <img src="./figures/Paraguay_1029042_JRC_Adjustment.png" alt="Paraguay_1029042_JRC_Adjustment.png" width="100%">
 </p>
 
 <p align="center">
   <em>Sentinel-1 SAR imagery illustrating flood detection.</em>
 </p>
-
-
 # Investigating the Relationship of Flood Extent and Deep-Learning Segmentation Performance Using Sentinel-1 SAR Imagery
 
 ## Project Overview
