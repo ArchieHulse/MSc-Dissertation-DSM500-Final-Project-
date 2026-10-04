@@ -305,6 +305,7 @@ dissertation/DSM500 Final Project.pdf
 ```
 
 The dissertation contains the full literature review, methodology, results, discussion, limitations, conclusion, references and ethics statement.
+NOTE: The full dissertation report is too large for GitHub submit, and can be provided separately on request from the author. 
 
 ---
 
