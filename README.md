@@ -114,10 +114,9 @@ MSc Dissertation GitHub/
 
 The notebooks are intended to be run sequentially in the following order.
 
-```markdown
 ### 1. Raw Data Exploration
 
-**File:** `01_RAW_Data_Exploration.ipynb`
+`01_RAW_Data_Exploration.ipynb`
 
 This notebook contains the initial exploratory data analysis (EDA) and quality assessment of the Sen1Floods11 dataset, including inspection of the Sentinel-1 imagery, reference data and permanent-water information.
 
@@ -125,7 +124,6 @@ Notebook 1 is primarily an exploratory and development notebook rather than a cl
 
 The raw Sen1Floods11 dataset is required for the exploratory analysis in this notebook and should be placed in:
 
-```text
 Data/Sen1Floods11_raw/
 
 ---
