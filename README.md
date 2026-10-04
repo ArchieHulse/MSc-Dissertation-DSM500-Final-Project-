@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./figures/pakistan%20flood.jpg" alt="Pakistan Flood" width="500">
+  <img src="./figures/Paraguay_1029042_JRC_Adjustment.png" alt="Paraguay_1029042_JRC_Adjustment.png" width="500">
 </p>
 
 <p align="center">
